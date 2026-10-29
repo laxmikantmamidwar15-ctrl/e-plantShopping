@@ -1,6 +1,7 @@
-﻿export default function AboutUs() {
+﻿
+export default function AboutUs() {
   return (
-    <section className="about-section">
+    <div className="about-us-container">
       <span className="eyebrow">OUR STORY</span>
       <h2>A little more green, a lot more life.</h2>
       <p>
@@ -14,6 +15,6 @@
         <span>✿ Friendly care guidance</span>
         <span>✿ Greenery for every space</span>
       </div>
-    </section>
+    </div>
   );
 }
